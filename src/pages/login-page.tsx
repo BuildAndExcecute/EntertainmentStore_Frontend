@@ -177,7 +177,7 @@ export function LoginPage() {
           </div>
         </div>
 
-        <Button
+        {/* <Button
           type="button"
           variant="outline"
           className="w-full font-medium"
@@ -195,7 +195,7 @@ export function LoginPage() {
               Continue with Google
             </>
           )}
-        </Button>
+        </Button> */}
 
         <div className="text-center text-sm text-muted-foreground">
           Don&apos;t have an account?{" "}

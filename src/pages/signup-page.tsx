@@ -217,7 +217,7 @@ export function SignupPage() {
           </div>
         </div>
 
-        <Button
+        {/* <Button
           type="button"
           variant="outline"
           className="w-full font-medium"
@@ -235,7 +235,7 @@ export function SignupPage() {
               Continue with Google
             </>
           )}
-        </Button>
+        </Button> */}
 
         <div className="text-center text-sm text-muted-foreground">
           Already have an account?{" "}
