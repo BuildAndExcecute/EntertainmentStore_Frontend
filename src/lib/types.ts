@@ -4,6 +4,7 @@ export interface Movie {
   description?: string | null
   thumbnailUrl: string
   bannerUrl?: string | null
+  videoUrl?: string | null
   views?: number
   likes?: number
   dislikes?: number
@@ -15,6 +16,7 @@ export interface MovieFeedbackItem {
   userId: string
   feedback: string
   createdAt?: string
+  updatedAt?: string
 }
 
 export interface MovieDetail {
@@ -24,14 +26,18 @@ export interface MovieDetail {
 
 export interface UserFeedbackItem {
   id: string
+  userId?: string
   movieId: string
   feedback: string
+  createdAt?: string
   updatedAt?: string
 }
 
 export interface UserHistoryItem {
   watchedAt: string
-  movie: Movie
+  movieId: string
+  title: string
+  thumbnailUrl: string
 }
 
 export interface MoviesPagination {

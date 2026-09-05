@@ -7,6 +7,7 @@ import { useApiResource } from "@/hooks/use-api-resource"
 import { api } from "@/lib/api"
 import { signOut, useSession } from "@/lib/auth-client"
 
+
 export function ProfilePage() {
   const navigate = useNavigate()
   const { data: session, isPending: sessionLoading } = useSession()
