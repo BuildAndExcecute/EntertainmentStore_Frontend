@@ -1,21 +1,36 @@
-# React + TypeScript + Vite + shadcn/ui
+# Entertainment Store - Frontend
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+Frontend for a simple movie streaming platform built with React and TypeScript.
 
-## Adding components
+## Tech Stack
 
-To add components to your app, run the following command:
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
+- Better Auth
+- REST API
 
-```bash
-npx shadcn@latest add button
-```
+## Features
 
-This will place the ui components in the `src/components` directory.
+- User authentication
+- Movie browsing
+- Movie details
+- Video streaming
+- User profile
+- Watch history
+- Responsive UI
+- Backend API integration
 
-## Using components
+## Project Structure
 
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button"
-```
+```text
+src/
+├── components/
+├── pages/
+├── hooks/
+├── lib/
+├── services/
+├── types/
+└── main.tsx
