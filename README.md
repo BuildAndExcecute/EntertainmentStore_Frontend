@@ -1,6 +1,7 @@
 # Entertainment Store - Frontend
 
 Frontend for a simple movie streaming platform built with React and TypeScript.
+
 Website link : https://entertainmentstore-frontend.nowrise5.workers.dev/ 
 
 ## Tech Stack
